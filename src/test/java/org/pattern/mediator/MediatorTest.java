@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class MediatorTest {
 
     @Test
-    void givenTurnedOffFan_whenPressingButtonTwice_fanShouldTurnOnAndOff() {
+    void givenTurnedOffFanWhenPressingButtonTwiceFanShouldTurnOnAndOffTest() {
         Mediator mediator = new Mediator();
         Fan fan = new Fan(mediator);
         Button button = new Button(mediator);
