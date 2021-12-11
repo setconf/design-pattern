@@ -7,7 +7,7 @@ import lombok.Getter;
  * Memento pattern is used to restore state of an object to a previous state.
  * Memento pattern falls under behavioral pattern category.
  *
- * @see <a href="https://www.tutorialspoint.com/design_pattern/memento_pattern.htm">Mediator pattern</a>
+ * @see <a href="https://www.tutorialspoint.com/design_pattern/memento_pattern.htm">Memento pattern</a>
  * */
 @Getter
 @AllArgsConstructor
