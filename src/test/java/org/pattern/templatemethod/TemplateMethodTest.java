@@ -5,6 +5,8 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.InOrder;
 import org.mockito.Mockito;
 
+import static org.mockito.Mockito.verifyNoMoreInteractions;
+
 class TemplateMethodTest {
 
 
@@ -18,5 +20,6 @@ class TemplateMethodTest {
         orderVerifier.verify(game).initializePlay();
         orderVerifier.verify(game).startPlay();
         orderVerifier.verify(game).endPlay();
+        verifyNoMoreInteractions(game);
     }
 }
