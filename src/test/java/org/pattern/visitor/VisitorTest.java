@@ -1,4 +1,4 @@
-package org.pattern.templatemethod.visitor;
+package org.pattern.visitor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
