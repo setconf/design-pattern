@@ -1,8 +1,9 @@
-package org.pattern.visitor;
+package org.pattern.templatemethod.visitor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
+import org.pattern.visitor.*;
 
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
